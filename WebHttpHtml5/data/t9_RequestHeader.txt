@@ -1,0 +1,12 @@
+GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc HTTP/1.1
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-AppId: efaidnbmnnnibpcajpcglclefindmkaj,fheoggkfdfchfphceeifdbepaooicaho
+X-Goog-Update-Updater: chromiumcrx-86.0.4240.183
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Host: clients2.google.com
+

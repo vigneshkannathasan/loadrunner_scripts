@@ -1,0 +1,47 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: welcome.pl_2",
+                "infFile": "t4.inf",
+                "time": 1742397750428
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Form: reservations.pl",
+                "infFile": "t5.inf",
+                "time": 1742397750569
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Image: Itinerary Button",
+                "infFile": "t6.inf",
+                "time": 1742397750743
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Image: Home Button",
+                "infFile": "t7.inf",
+                "time": 1742397750893
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "welcome screen",
+                "rawStartTime": 1742397750295,
+                "rawEndTime": 1742397750431,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008668661117553711
+            },
+            {
+                "transactionName": "reservations",
+                "rawStartTime": 1742397750462,
+                "rawEndTime": 1742397750572,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009757757186889649
+            }
+        ]
+    }
+]

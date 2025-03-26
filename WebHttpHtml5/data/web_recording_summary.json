@@ -1,0 +1,391 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-goog-update-updater",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-interactivity",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-update-appid",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-encode-response-if-executable",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-goog-api-key",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": true
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/xml"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/x-protobuf"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 25,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Mar-12-2025",
+    "RecordingDuration": 42359,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1741775620,
+    "RecordingType": "Proxy",
+    "TotalBytesReceived": 79549,
+    "TotalBytesSent": 18040,
+    "TotalRequests": 25,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4007:812::200a]",
+          "IncludeInScript": true,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 15,
+              "EventId": 437,
+              "HttpStatus": 400,
+              "Size": 179,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 15,
+              "EventId": 392,
+              "HttpStatus": 400,
+              "Size": 179,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 0,
+              "EventId": 358,
+              "HttpStatus": 400,
+              "Size": 179,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4009:81f::200e]",
+          "IncludeInScript": true,
+          "Name": "clients2.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 16,
+              "EventId": 375,
+              "HttpStatus": 200,
+              "Size": 278,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/xml",
+              "DownloadTime": 15,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 278,
+              "URL": "https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2404:6800:4003:c0f::54]",
+          "IncludeInScript": true,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 0,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "192.168.152.1",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "192.168.152.1",
+          "IncludeInScript": true,
+          "Name": "192.168.152.1",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 432,
+              "HttpStatus": 200,
+              "Size": 1488,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 428,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 424,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 420,
+              "HttpStatus": 200,
+              "Size": 918,
+              "URL": "http://192.168.152.1:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 416,
+              "HttpStatus": 200,
+              "Size": 596,
+              "URL": "http://192.168.152.1:1080/cgi-bin/welcome.pl?page=menus"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 412,
+              "HttpStatus": 200,
+              "Size": 28009,
+              "URL": "http://192.168.152.1:1080/cgi-bin/itinerary.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 29115,
+              "URL": "http://192.168.152.1:1080/cgi-bin/itinerary.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 404,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 400,
+              "HttpStatus": 200,
+              "Size": 591,
+              "URL": "http://192.168.152.1:1080/cgi-bin/welcome.pl?page=itinerary"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 396,
+              "HttpStatus": 200,
+              "Size": 2436,
+              "URL": "http://192.168.152.1:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 387,
+              "HttpStatus": 200,
+              "Size": 4246,
+              "URL": "http://192.168.152.1:1080/cgi-bin/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 383,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 379,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "http://192.168.152.1:1080/cgi-bin/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 366,
+              "HttpStatus": 200,
+              "Size": 918,
+              "URL": "http://192.168.152.1:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 362,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://192.168.152.1:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 343,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://192.168.152.1:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 339,
+              "HttpStatus": 200,
+              "Size": 1490,
+              "URL": "http://192.168.152.1:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 335,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=true"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 2
+}

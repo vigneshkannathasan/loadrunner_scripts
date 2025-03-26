@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Mar 2025 10:34:54 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Tue, 11 Mar 2025 10:34:54 GMT
+Set-Cookie: MTUserInfo=firstName&Jojo&username&jojo&address2&&hash&47&address1&&lastName&Bean%0A; path=/
+Content-Type: text/html; charset=ISO-8859-1
+

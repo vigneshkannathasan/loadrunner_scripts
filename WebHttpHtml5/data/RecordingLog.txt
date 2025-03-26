@@ -1,0 +1,299 @@
+[API Trapper      (2e20:35a4)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (24d4:4890)] ------------------------------------------------------------------------------------------
+[Network Analyzer (24d4:4890)] Load Network Traffic Analyzers:
+[Network Analyzer (24d4:4890)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (24d4:4890)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (24d4:4890)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (24d4:4890)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (24d4:4890)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (24d4:4890)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (24d4:4890)]     Analyzer Module: local_server (value=)
+[Network Analyzer (24d4:4890)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (24d4:4890)] Started proxy on port 8889 listening IP 192.168.1.8, 127.0.0.1, in synchronous mode
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51958
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51959
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51960
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51961
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51962
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51963
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=true ...
+[Proxy Recording  (24d4:4fc4)] Received response of 298 header and 686 body bytes from http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=true
+[Web Request      (24d4:4fc4)] "GET http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (24d4:4fc4)]   (Sid:  1) Client -> Server @ : 548 bytes (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid:  1) Server -> Client : 287 bytes  (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid:  1) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:4fc4)] Sent 686 bytes to client @ 192.168.1.8:51958
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (24d4:3884)] Received response of 183 header and 1490 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      (24d4:3884)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (24d4:3884)]   (Sid:  2) Client -> Server @ : 556 bytes (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid:  2) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid:  2) Server -> Client : 1490 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3884)] Sent 1490 bytes to client @ 192.168.1.8:51959
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51965
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51966
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51967
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/favicon.ico ...
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/favicon.ico ...
+[Proxy Recording.Error (24d4:3884)] Failed to connect to server http://192.168.152.1:1080/favicon.ico.
+Message=ProtocolError, status=The remote server returned an error: (404) Not Found.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4:3884)] Received response of 136 header and 209 body bytes from http://192.168.152.1:1080/favicon.ico
+[Web Request      (24d4:3884)] "GET http://192.168.152.1:1080/favicon.ico"   
+[Network Analyzer (24d4:3884)]   (Sid:  3) Client -> Server @ : 417 bytes (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid:  3) Server -> Client : 160 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid:  3) Server -> Client : 209 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3884)] Sent 209 bytes to client @ 192.168.1.8:51966
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51968
+[Proxy Recording  (24d4:4384)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (24d4:4384)] Trying to connect to https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard ...
+[Proxy Recording  (24d4:4384)] Received response of 1867 header and 43 body bytes from https://accounts.google.com:443/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+[Network Analyzer (24d4:4384)]   (Sid:  4) Client -> Server @ : 818 bytes (SSL)(Service=HTTP)
+[Web Request      (24d4:4384)] "POST https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (24d4:4384)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4:4384)]   (Sid:  4) Server -> Client : 1856 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4:4384)]   (Sid:  4) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4:4384)] Sent 43 bytes to client @ 192.168.1.8:51963
+[Proxy Recording  (24d4:50b8)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc ...
+[Proxy Recording  (24d4:50b8)] Received response of 572 header and 278 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc
+[Web Request      (24d4:50b8)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc"   
+[Network Analyzer (24d4:50b8)]   (Sid:  5) Client -> Server @ : 851 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid:  5) Server -> Client : 561 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid:  5) Server -> Client : 278 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4:50b8)] Sent 278 bytes to client @ 192.168.1.8:51962
+[Proxy Recording  (24d4:2994)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto ...
+[Proxy Recording  (24d4:2994)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto ...
+[Proxy Recording.Error (24d4: ee0)] Cannot establish a secure connection to the application being recorded.
+Message=A call to SSPI failed, see inner exception.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51977
+[Proxy Recording.Error (24d4:4384)] Cannot establish a secure connection to the application being recorded.
+Message=A call to SSPI failed, see inner exception.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording.Error (24d4:2994)] Failed to connect to server https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto.
+Message=ProtocolError, status=The remote server returned an error: (400) Bad Request.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4:2994)] Received response of 313 header and 179 body bytes from https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto
+[Web Request      (24d4:2994)] "GET https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto"   
+[Network Analyzer (24d4:2994)]   (Sid:  6) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid:  6) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid:  6) Server -> Client : 179 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4:2994)] Sent 179 bytes to client @ 192.168.1.8:51965
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51979
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51980
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51981
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://nbhhcpabukydx/ ...
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51982
+[Proxy Recording  (24d4:2994)] Trying to connect to http://nwnzrnsjiavjpfn/ ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://nbhhcpabukydx/ ...
+[Proxy Recording  (24d4:2994)] Trying to connect to http://nwnzrnsjiavjpfn/ ...
+[Proxy Recording.Error (24d4: ee0)] A call to SSPI failed, see inner exception.
+[Proxy Recording.Error (24d4:4384)] A call to SSPI failed, see inner exception.
+[Proxy Recording  (24d4:3880)] Trying to connect to http://wdqwpckjtbr/ ...
+[Proxy Recording  (24d4:3880)] Trying to connect to http://wdqwpckjtbr/ ...
+[Proxy Recording.Error (24d4: ee0)] The certificate chain was issued by an authority that is not trusted
+[Proxy Recording.Error (24d4:4384)] The certificate chain was issued by an authority that is not trusted
+[Proxy Recording.Error (24d4:3884)] Cannot establish a secure connection to the application being recorded.
+Message=A call to SSPI failed, see inner exception.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51983
+[Proxy Recording.Error (24d4:28a8)] Cannot establish a secure connection to the application being recorded.
+Message=A call to SSPI failed, see inner exception.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/vugen/en/2021/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl ...
+[Proxy Recording  (24d4:4fc4)] Received response of 286 header and 481 body bytes from http://192.168.152.1:1080/cgi-bin/login.pl
+[Network Analyzer (24d4:4fc4)]   (Sid:  7) Client -> Server @ : 673 bytes (Service=HTTP)
+[Web Request      (24d4:4fc4)] "POST http://192.168.152.1:1080/cgi-bin/login.pl"   
+[Network Analyzer (24d4:4fc4)]   (Sid:  7) Client -> Server @ : 122 bytes (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid:  7) Server -> Client : 275 bytes  (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid:  7) Server -> Client : 481 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:4fc4)] Sent 481 bytes to client @ 192.168.1.8:51967
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51986
+[Proxy Recording  (24d4:4384)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51987
+[Proxy Recording  (24d4: ee0)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (24d4:4384)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (24d4: ee0)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (24d4: ee0)] Received response of 156 header and 918 body bytes from http://192.168.152.1:1080/cgi-bin/login.pl?intro=true
+[Proxy Recording  (24d4:4384)] Received response of 183 header and 1482 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home
+[Web Request      (24d4: ee0)] "GET http://192.168.152.1:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (24d4: ee0)]   (Sid:  8) Client -> Server @ : 656 bytes (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid:  8) Server -> Client : 145 bytes  (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid:  8) Server -> Client : 918 bytes  (Service=HTTP)
+[Proxy Recording  (24d4: ee0)] Sent 918 bytes to client @ 192.168.1.8:51987
+[Web Request      (24d4:4384)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (24d4:4384)]   (Sid:  9) Client -> Server @ : 661 bytes (Service=HTTP)
+[Network Analyzer (24d4:4384)]   (Sid:  9) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:4384)]   (Sid:  9) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:4384)] Sent 1482 bytes to client @ 192.168.1.8:51986
+[Proxy Recording.Error (24d4:3884)] A call to SSPI failed, see inner exception.
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51989
+[Proxy Recording.Error (24d4:28a8)] A call to SSPI failed, see inner exception.
+[Proxy Recording  (24d4: ee0)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc ...
+[Proxy Recording  (24d4: ee0)] Trying to connect to https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc ...
+[Proxy Recording  (24d4: ee0)] Received response of 572 header and 278 body bytes from https://clients2.google.com:443/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc
+[Web Request      (24d4: ee0)] "GET https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromiumcrx&prodchannel=&prodversion=86.0.4240.183&lang=en-US&acceptformat=crx3&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D0.0.0.0%26installedby%3Dexternal%26uc&x=id%3Dfheoggkfdfchfphceeifdbepaooicaho%26v%3D0.0.0.0%26installedby%3Dexternal%26uc"   
+[Network Analyzer (24d4: ee0)]   (Sid: 10) Client -> Server @ : 827 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 10) Server -> Client : 561 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 10) Server -> Client : 278 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4: ee0)] Sent 278 bytes to client @ 192.168.1.8:51989
+[Proxy Recording.Error (24d4:3884)] The certificate chain was issued by an authority that is not trusted
+[Proxy Recording.Error (24d4:28a8)] The certificate chain was issued by an authority that is not trusted
+[Proxy Recording.Error (24d4:2994)] Failed to connect to server http://nwnzrnsjiavjpfn/.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'nwnzrnsjiavjpfn'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording.Error (24d4:50b8)] Failed to connect to server http://nbhhcpabukydx/.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'nbhhcpabukydx'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51991
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=search ...
+[Proxy Recording  (24d4:3884)] Received response of 143 header and 616 body bytes from http://192.168.152.1:1080/cgi-bin/welcome.pl?page=search
+[Web Request      (24d4:3884)] "GET http://192.168.152.1:1080/cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (24d4:3884)]   (Sid: 11) Client -> Server @ : 675 bytes (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid: 11) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid: 11) Server -> Client : 616 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3884)] Sent 616 bytes to client @ 192.168.1.8:51991
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51993
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51994
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=flights ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/reservations.pl?page=welcome ...
+[Proxy Recording  (24d4:4fc4)] Received response of 183 header and 1482 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=flights
+[Proxy Recording  (24d4:50b8)] Received response of 183 header and 4246 body bytes from http://192.168.152.1:1080/cgi-bin/reservations.pl?page=welcome
+[Web Request      (24d4:4fc4)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (24d4:4fc4)]   (Sid: 12) Client -> Server @ : 678 bytes (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid: 12) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid: 12) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:4fc4)] Sent 1482 bytes to client @ 192.168.1.8:51993
+[Web Request      (24d4:50b8)] "GET http://192.168.152.1:1080/cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (24d4:50b8)]   (Sid: 13) Client -> Server @ : 679 bytes (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 13) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 13) Server -> Client : 4246 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:50b8)] Sent 4246 bytes to client @ 192.168.1.8:51994
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51996
+[Proxy Recording  (24d4: ee0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto ...
+[Proxy Recording  (24d4: ee0)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto ...
+[Proxy Recording.Error (24d4: ee0)] Failed to connect to server https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto.
+Message=ProtocolError, status=The remote server returned an error: (400) Bad Request.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4: ee0)] Received response of 313 header and 179 body bytes from https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto
+[Web Request      (24d4: ee0)] "GET https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRKNAQkrOi-D0p4QbxIZDVRiKa0SBmRlcGFydBoKc2VsZWN0LW9uZRIXDXudxKUSCmRlcGFydERhdGUaBHRleHQSGQ0fOzmFEgZhcnJpdmUaCnNlbGVjdC1vbmUSFw3ahZlhEgpyZXR1cm5EYXRlGgR0ZXh0EhoNqY5KvRINbnVtUGFzc2VuZ2VycxoEdGV4dA==?alt=proto"   
+[Network Analyzer (24d4: ee0)]   (Sid: 14) Client -> Server @ : 681 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 14) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 14) Server -> Client : 179 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4: ee0)] Sent 179 bytes to client @ 192.168.1.8:51996
+[Proxy Recording.Error (24d4:3880)] Failed to connect to server http://wdqwpckjtbr/.
+Message=NameResolutionFailure, status=The remote name could not be resolved: 'wdqwpckjtbr'
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:51998
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (24d4:4fc4)] Trying to connect to http://192.168.152.1:1080/cgi-bin/reservations.pl ...
+[Proxy Recording  (24d4:4fc4)] Received response of 183 header and 2436 body bytes from http://192.168.152.1:1080/cgi-bin/reservations.pl
+[Network Analyzer (24d4:4fc4)]   (Sid: 15) Client -> Server @ : 804 bytes (Service=HTTP)
+[Web Request      (24d4:4fc4)] "POST http://192.168.152.1:1080/cgi-bin/reservations.pl"   
+[Network Analyzer (24d4:4fc4)]   (Sid: 15) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid: 15) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:4fc4)]   (Sid: 15) Server -> Client : 2436 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:4fc4)] Sent 2436 bytes to client @ 192.168.1.8:51998
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52000
+[Proxy Recording  (24d4:2994)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=itinerary ...
+[Proxy Recording  (24d4:2994)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=itinerary ...
+[Proxy Recording  (24d4:2994)] Received response of 143 header and 591 body bytes from http://192.168.152.1:1080/cgi-bin/welcome.pl?page=itinerary
+[Web Request      (24d4:2994)] "GET http://192.168.152.1:1080/cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (24d4:2994)]   (Sid: 16) Client -> Server @ : 681 bytes (Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid: 16) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid: 16) Server -> Client : 591 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:2994)] Sent 591 bytes to client @ 192.168.1.8:52000
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52001
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52002
+[Proxy Recording  (24d4:3880)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  (24d4:3880)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  (24d4:3880)] Received response of 183 header and 1482 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+[Proxy Recording  (24d4:50b8)] Received response of 183 header and 29115 body bytes from http://192.168.152.1:1080/cgi-bin/itinerary.pl
+[Web Request      (24d4:3880)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (24d4:3880)]   (Sid: 17) Client -> Server @ : 683 bytes (Service=HTTP)
+[Network Analyzer (24d4:3880)]   (Sid: 17) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3880)]   (Sid: 17) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3880)] Sent 1482 bytes to client @ 192.168.1.8:52001
+[Web Request      (24d4:50b8)] "GET http://192.168.152.1:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer (24d4:50b8)]   (Sid: 18) Client -> Server @ : 666 bytes (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 18) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 18) Server -> Client : 29115 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:50b8)] Sent 29115 bytes to client @ 192.168.1.8:52002
+[Proxy Recording  (24d4:31b8)] Empty http command received from client's ssl connection
+[Proxy Recording  (24d4:3b14)] Empty http command received from client's ssl connection
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52004
+[Proxy Recording  (24d4:2994)] Trying to connect to http://192.168.152.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  (24d4:2994)] Trying to connect to http://192.168.152.1:1080/cgi-bin/itinerary.pl ...
+[Proxy Recording  (24d4:2994)] Received response of 183 header and 28009 body bytes from http://192.168.152.1:1080/cgi-bin/itinerary.pl
+[Network Analyzer (24d4:2994)]   (Sid: 19) Client -> Server @ : 785 bytes (Service=HTTP)
+[Web Request      (24d4:2994)] "POST http://192.168.152.1:1080/cgi-bin/itinerary.pl"   
+[Network Analyzer (24d4:2994)]   (Sid: 19) Client -> Server @ : 932 bytes (Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid: 19) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:2994)]   (Sid: 19) Server -> Client : 28009 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:2994)] Sent 28009 bytes to client @ 192.168.1.8:52004
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52006
+[Proxy Recording  (24d4:3880)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=menus ...
+[Proxy Recording  (24d4:3880)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?page=menus ...
+[Proxy Recording  (24d4:3880)] Received response of 143 header and 596 body bytes from http://192.168.152.1:1080/cgi-bin/welcome.pl?page=menus
+[Web Request      (24d4:3880)] "GET http://192.168.152.1:1080/cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (24d4:3880)]   (Sid: 20) Client -> Server @ : 679 bytes (Service=HTTP)
+[Network Analyzer (24d4:3880)]   (Sid: 20) Server -> Client : 132 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3880)]   (Sid: 20) Server -> Client : 596 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3880)] Sent 596 bytes to client @ 192.168.1.8:52006
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52007
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52008
+[Proxy Recording  (24d4: ee0)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (24d4:31b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (24d4: ee0)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home ...
+[Proxy Recording  (24d4:31b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/login.pl?intro=true ...
+[Proxy Recording  (24d4:31b8)] Received response of 156 header and 918 body bytes from http://192.168.152.1:1080/cgi-bin/login.pl?intro=true
+[Proxy Recording  (24d4: ee0)] Received response of 183 header and 1482 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home
+[Web Request      (24d4:31b8)] "GET http://192.168.152.1:1080/cgi-bin/login.pl?intro=true"   
+[Network Analyzer (24d4:31b8)]   (Sid: 21) Client -> Server @ : 669 bytes (Service=HTTP)
+[Network Analyzer (24d4:31b8)]   (Sid: 21) Server -> Client : 145 bytes  (Service=HTTP)
+[Network Analyzer (24d4:31b8)]   (Sid: 21) Server -> Client : 918 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:31b8)] Sent 918 bytes to client @ 192.168.1.8:52008
+[Web Request      (24d4: ee0)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (24d4: ee0)]   (Sid: 22) Client -> Server @ : 674 bytes (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 22) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4: ee0)]   (Sid: 22) Server -> Client : 1482 bytes  (Service=HTTP)
+[Proxy Recording  (24d4: ee0)] Sent 1482 bytes to client @ 192.168.1.8:52007
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52014
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  (24d4:3884)] Trying to connect to http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=1 ...
+[Proxy Recording  (24d4:3884)] Received response of 242 header and 686 body bytes from http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=1
+[Web Request      (24d4:3884)] "GET http://192.168.152.1:1080/cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (24d4:3884)]   (Sid: 23) Client -> Server @ : 673 bytes (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid: 23) Server -> Client : 231 bytes  (Service=HTTP)
+[Network Analyzer (24d4:3884)]   (Sid: 23) Server -> Client : 686 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:3884)] Sent 686 bytes to client @ 192.168.1.8:52014
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52016
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (24d4:50b8)] Trying to connect to http://192.168.152.1:1080/cgi-bin/nav.pl?in=home ...
+[Proxy Recording  (24d4:50b8)] Received response of 183 header and 1488 body bytes from http://192.168.152.1:1080/cgi-bin/nav.pl?in=home
+[Web Request      (24d4:50b8)] "GET http://192.168.152.1:1080/cgi-bin/nav.pl?in=home"   
+[Network Analyzer (24d4:50b8)]   (Sid: 24) Client -> Server @ : 553 bytes (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 24) Server -> Client : 172 bytes  (Service=HTTP)
+[Network Analyzer (24d4:50b8)]   (Sid: 24) Server -> Client : 1488 bytes  (Service=HTTP)
+[Proxy Recording  (24d4:50b8)] Sent 1488 bytes to client @ 192.168.1.8:52016
+[Proxy Recording  (24d4:3914)] Client request from @ 192.168.1.8:52017
+[Proxy Recording  (24d4:31b8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto ...
+[Proxy Recording  (24d4:31b8)] Trying to connect to https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto ...
+[Proxy Recording.Error (24d4:31b8)] Failed to connect to server https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto.
+Message=ProtocolError, status=The remote server returned an error: (400) Bad Request.
+See "https://msdn.microsoft.com/en-us/library/ms346609(v=vs.110).aspx" for details.
+[Proxy Recording  (24d4:31b8)] Received response of 313 header and 179 body bytes from https://content-autofill.googleapis.com:443/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto
+[Web Request      (24d4:31b8)] "GET https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI7CRbNFWPOyIQTEhUN541ADhIIdXNlcm5hbWUaBHRleHQSGQ3OQUx6EghwYXNzd29yZBoIcGFzc3dvcmQ=?alt=proto"   
+[Network Analyzer (24d4:31b8)]   (Sid: 25) Client -> Server @ : 569 bytes (SSL)(Service=HTTP)
+[Network Analyzer (24d4:31b8)]   (Sid: 25) Server -> Client : 311 bytes (SSL) (Service=HTTP)
+[Network Analyzer (24d4:31b8)]   (Sid: 25) Server -> Client : 179 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (24d4:31b8)] Sent 179 bytes to client @ 192.168.1.8:52017
